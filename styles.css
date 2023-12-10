@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 2px;
+}
+
+.hero {
+  background-image: url('https://photopedia.in/wp-content/uploads/2017/12/wide-angle.jpg');
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.nav-links li {
+  
+  display: inline;
+  margin: 10px 10px;
+  color:#fff;
+}
+
+.hero h1 {
+  font-size: 3.5em;
+  margin-bottom: 25px;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-bottom: 35px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff9900;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e68200;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.feature {
+  text-align: center;
+  padding: 20px;
+  max-width: 300px;
+}
+
+.feature-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.feature h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
